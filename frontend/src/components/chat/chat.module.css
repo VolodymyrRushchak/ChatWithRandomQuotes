@@ -1,0 +1,49 @@
+.chatBox {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding: 1.5vw 1vw 1.5vw 1vw;
+}
+
+.chatBox:hover {
+    background-color: rgb(211, 211, 211);
+}
+
+.chatData {
+    margin-left: 1vw;
+    width: 85%;
+}
+
+.date {
+    font-size: 0.8rem;
+}
+
+.editBtn {
+    display: none;
+    font-size: 0.7vw;
+    width: 1.8vw;
+    padding: 0.2vw;
+    border-radius: 15px;
+    border-width: 1px;
+}
+
+.editBtn:hover {
+    cursor: pointer;
+    background-color: rgb(211, 211, 211);
+}
+
+.chatBox:hover .editBtn {
+    display: inline;
+}
+
+.lastMessage {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-clamp: 2;
+    -webkit-line-clamp: 2; /* Number of lines to show */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: small;
+    padding-right: 1vw;
+}

@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+    padding: 2vw;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.searchBar {
+    flex-grow: 1;
+    background-image: url('../../assets/images/magnifying-glass.png');
+    background-size: 1.1vw;
+    background-repeat: no-repeat;
+    background-position: 2%;
+    padding: 0.5vw;
+    padding-left: 3vw;
+    margin-top: 1vw;
+    border-radius: 15px;
+    border-width: 1px;
+}
+
+.upperHalf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;   
+}
+
+.loginLogout {
+    background-color: white;
+    border-radius: 15px;
+    border-width: 1px;
+    color: rgb(41, 180, 255);
+    padding: 0.3vw;
+    padding-left: 0.6vw;
+    padding-right: 0.6vw;
+}
+
+.loginLogout:hover {
+    cursor: pointer;
+    background-color: rgb(211, 211, 211);
+}

@@ -1,0 +1,66 @@
+.message {
+    display: flex;
+    margin: 1vw;
+}
+
+.message.right {
+    align-self: flex-end;
+}
+
+.message.left {
+    align-self: flex-start;
+}
+
+.textBox {
+    white-space: normal;
+    word-wrap: break-word;
+    max-width: 25vw;
+    background-color: rgb(223, 223, 223);
+    border-radius: 15px;
+    padding: 0.5vw;
+}
+
+.textBox.right {
+    background-color: rgb(223, 223, 223);
+}
+
+.textBox.left {
+    color: white;
+    background-color: rgb(60, 65, 85);
+    margin-left: 1vw;
+}
+
+.datetime {
+    margin-left: 1vw;
+    margin-top: 0.7vw;
+    font-size: 0.75rem;
+}
+
+.message.right .datetime {
+    align-self: flex-end;
+}
+
+.editBtn {
+    padding: 0;
+    border: none;
+    border-radius: 100%;
+    display: none;
+    margin-right: 1vw;
+    font-size: 1vw;
+    height: 2.5vw;
+    width: 2.5vw;
+}
+
+.editBtn:hover {
+    background-color: rgb(211, 211, 211);
+    cursor: pointer;
+}
+
+.message:hover .editBtn {
+    display: inline;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
